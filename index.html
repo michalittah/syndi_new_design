@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+          integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header col-sm-3 col-md-2">
+        <a class="navbar-brand" href="#">Syndi</a>
+    </div>
+    <div id="navbar" class="navbar-collapse col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 ">
+        <ul class="nav navbar-nav navbar-left col-sm-3 col-md-2">
+            <li>
+                <span>
+                <i class="fa fa-caret-left" aria-hidden="true"></i>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </li>
+            <li>
+                <span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <span class="btn sync_drive">Sync Drive <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+            </li>
+            <li>
+                <span class="btn analytics"><i class="fa fa-plus" aria-hidden="true"></i> Analytics</span>
+            </li>
+            <li>
+                <span><i class="fa fa-user-plus" aria-hidden="true"></i></span>
+            </li>
+            <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+            <li><span class="user-menu">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </span></li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class="active"><span> pipeline snapshot</span></li>
+                <li><span>deal funnel</span></li>
+                <li><span>track deal changes</span></li>
+                <li><span>market overview</span></li>
+                <li><span>data analytics</span></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="title_wrapper">
+                <h3 class="list_name">Pipeline report</h3>
+                <div class="space"></div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"
+                                                                         aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" placeholder="Search Board" aria-describedby="basic-addon1">
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        Active Deals <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list_wrapper">
+                <table class="list_table">
+                    <thead>
+                    <tr class="head">
+                        <th class="first_column">project name</th>
+                        <th>date sourced</th>
+                        <th>address</th>
+                        <th>city</th>
+                        <th>state</th>
+                        <th>status</th>
+                        <th>contact</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="item">
+                        <td class="item_column first_column">
+                            <span>Oak station</span>
+                        </td>
+                        <td class="item_column">
+                            <span>Jan 20</span>
+                        </td>
+                        <td class="item_column">
+                            <span>9020010 Beverly Hills</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Lakewood</span>
+                        </td>
+                        <td class="item_column">
+                            <span class="color_1"> OH</span>
+                        </td>
+                        <td class="item_column column_type_color under_contract">
+                            <span> under contract</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Klay Thompson</span>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td class="item_column first_column">
+                            <span>Oak station</span>
+                        </td>
+                        <td class="item_column">
+                            <span>Jan 20</span>
+                        </td>
+                        <td class="item_column">
+                            <span>9020010 Beverly Hills</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Lakewood</span>
+                        </td>
+                        <td class="item_column">
+                            <span class="color_1"> OH</span>
+                        </td>
+                        <td class="item_column column_type_color under_contract">
+                            <span> under contract</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Klay Thompson</span>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td class="item_column first_column">
+                            <span>Oak station</span>
+                        </td>
+                        <td class="item_column">
+                            <span>Jan 20</span>
+                        </td>
+                        <td class="item_column">
+                            <span>9020010 Beverly Hills</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Lakewood</span>
+                        </td>
+                        <td class="item_column">
+                            <span class="color_1"> OH</span>
+                        </td>
+                        <td class="item_column column_type_color under_contract">
+                            <span> under contract</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Klay Thompson</span>
+                        </td>
+                    </tr>
+                    <tr class="item">
+                        <td class="item_column first_column">
+                            <span>Oak station</span>
+                        </td>
+                        <td class="item_column">
+                            <span>Jan 20</span>
+                        </td>
+                        <td class="item_column">
+                            <span>9020010 Beverly Hills</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Lakewood</span>
+                        </td>
+                        <td class="item_column">
+                            <span class="color_1"> OH</span>
+                        </td>
+                        <td class="item_column column_type_color under_writing">
+                            <span> under writing</span>
+                        </td>
+                        <td class="item_column">
+                            <span> Klay Thompson</span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div><!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+        integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+        integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+</body>
+</html>
